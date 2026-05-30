@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #0A3981 !important;
+}
+
+body {
+  --bs-primary: #0a3981 !important;
+  --bs-primary-rgb: 10,57,129;
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-btn-active-bg);
+  border-color: var(--bs-btn-active-border-color);
+}
+
